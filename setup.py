@@ -49,7 +49,7 @@ setup(name='umapi-client',
       packages=find_packages(),
       install_requires=[
           'requests>=2.4.2',
-          'cryptography',
+          'cryptography==2.5',
           'PyJWT',
           'six',
           'enum34'
